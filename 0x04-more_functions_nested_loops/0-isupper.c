@@ -5,11 +5,15 @@
  * @c: paramter
  * Return: 1 or 0
  */
+
 int _isupper(int c)
 {
-	if (c <= 98 && c >= 65)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
