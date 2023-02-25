@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - function that prints fizz buzz
- *
- * Return: always 0
- */
-
 int main(void)
 {
 	int i;
